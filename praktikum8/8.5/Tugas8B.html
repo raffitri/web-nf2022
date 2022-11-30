@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Praktikum 8.4B</title>
+    <style>
+    * {
+      font-size: 30px;
+      font-weight: bold;
+      text-align: center;
+    }
+        .container{
+            display: flex;
+            flex-direction: column;
+            background-color: 	#3f6d4e;
+            padding: 10px;
+        }
+
+        .header{
+            background-color: 	magenta;
+            height: 105px;
+        }
+
+        .main{
+            background-color: 	lightcoral;
+            height: 450px;
+            display: flex;
+            padding: 10px;
+        }
+
+        .footer{
+            background-color: 	greenyellow;
+            height: 105px;
+        }
+
+        .aside{
+            background-color:	skyblue;
+            width: 20%;
+            margin-right: 15px;
+        }
+
+        .article{
+            background-color: pink;
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+            flex-direction: column;
+        }
+
+        .bingkai{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .bingkai img{
+            margin: 0.5em;
+            width: 200px;
+            height: 200px;
+        }
+
+        h3{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+  <main>
+    <div class="container">
+     <div class="header">
+        header
+     </div>
+
+     <div class="main">
+        <div class="aside">
+            aside
+        </div>
+
+        <div class="article">
+            <h3>Article</h3>
+            <div class="bingkai">
+                <img src="img/1.jfif" alt="">
+                <img src="img/2.jfif" alt="">
+                <img src="img/3.jfif" alt="" >
+            </div>
+        </div>
+     </div>
+
+     <div class="footer">
+        footer
+     </div>
+    </div>
+    </main>
+</body>
+</html>
