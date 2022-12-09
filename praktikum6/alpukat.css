@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(59, 137, 163);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+p {
+    text-align: justify;
+    width: fit-content;
+}
+
+.center {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.foto {
+    background-color: black;
+}
+
+.foto img {
+    width: 23%;
+}
+
+.cod {
+    width: 100%;
+}
+
+.cod p {
+    background-color: rgb(118, 209, 209);
+    border: 1px dotted red;
+    text-align: center;
+    font-weight: bold;
+    color: blue;
+    margin: 0 auto;
+}
+
+.promo {
+    color: red;
+    text-align: center;
+}
+
+button {
+    background-color: yellow;
+    color: red;
+    border: 0;
+}
+</style>
+</head>
